@@ -1,0 +1,30 @@
+#titulo{
+    font-size: 4rem;
+    color: rgb(216, 76, 76);
+
+}
+
+body{
+    background-image: url('mundo.jpg');
+}
+
+.radio-inp{
+    margin: 0px 10px;
+}
+
+.carta{
+    border-radius: 8px;
+    border: none;
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.44);
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.44);
+    transition: all 0.2s ease;
+}
+
+.carta:hover{
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.0);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.0);
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0);
+    border: 2px solid rgba(0,0,0,0.44);
+    transition: all 0.2s ease;
+}
